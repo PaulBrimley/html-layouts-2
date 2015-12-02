@@ -24,6 +24,11 @@ header {
 	color: lightblue;
 }
 
+.main {
+	height: 600px;
+	display: flex;
+}
+
 .article {
 	display: flex;
 	flex-direction: column;
@@ -31,6 +36,14 @@ header {
 	flex-wrap: wrap;
 }
 
-.main {
-	height: 600px;
+.article img {
+	margin: 10px 0 10px 0;
+	height: 200px;
+	width: 100%;
+}
+
+footer {
+	background: #4a4a4a;
+	height: 60px;
+	width: 100%;
 }
